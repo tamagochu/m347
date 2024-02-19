@@ -39,3 +39,22 @@ d steht für detached mode, es läuft im Hintergrund
 p bildet port 80 vom host auf port 80 im container ab
 
 docker/getting-started ist die image die wir benutzen
+
+
+# C)
+![image](https://github.com/tamagochu/m347/assets/112620658/1594ef30-c236-4c12-a7e5-17a73db08514)
+
+# D)
+![image](https://github.com/tamagochu/m347/assets/112620658/e0f2e861-7476-4151-a386-fcaeeea05b7e)
+
+
+Befehle:
+- docker pull nginx
+- docker tag nginx:latest jftbz/m347:nginx
+- docker push jftbz/m347:nginx
+- docker pull mariadb
+- docker tag mariadb:latest jftbz/m347:mariadb
+- docker push -a
+
+- Der Tag Befehl erlaubt uns, mehrere Images zu gruppieren. Mehrere Images können auf einen Tag zeigen. Ein Tag ist das Gleiche wie eine Image ID.
+- Push erlaubt es mir, mein Image mit meinem Hub zu teilen.
