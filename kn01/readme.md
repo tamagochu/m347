@@ -56,5 +56,6 @@ Befehle:
 - docker tag mariadb:latest jftbz/m347:mariadb
 - docker push -a
 
+## Erklärung
 - Der Tag Befehl erlaubt uns, mehrere Images zu gruppieren. Mehrere Images können auf einen Tag zeigen. Ein Tag ist das Gleiche wie eine Image ID.
 - Push erlaubt es mir, mein Image mit meinem Hub zu teilen.
