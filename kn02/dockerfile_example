@@ -1,0 +1,3 @@
+FROM nginx # use nginx as base image
+COPY static-html-directory /var/www/html # copy static-html-directory to /var/www/html
+EXPOSE 80 # tells docker to listen to this port
